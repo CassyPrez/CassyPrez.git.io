@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Cassy's Portfolio</title>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c01620f1a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="Images/logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav_item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav_item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav_item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav_item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Tom <strong>Sowell</strong>
+        </h1>
+        <p class="section_subtitle section__subtitle--intro">
+           Economist
+        </p>
+        <img src="Images/sowell.png" 
+            alt="a picture a young Tom Sowell and a quote" 
+            class="intro__img">
+    </section>
+    
+    <div class="portfolio-item-individual">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet dolorem veniam non aut sint tempora fuga, minus, aperiam quis unde, illum fugit explicabo. Modi aliquam quos soluta veniam quis!
+        </p>
+        <img src="Images/tom.jpg" 
+        alt="picture of older Tom Sowell"
+        class="old-sowell">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore maxime iste tempore nostrum error deleniti fugit debitis voluptate reprehenderit sint, quidem soluta saepe, quasi dicta quibusdam libero. Omnis, quos!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit similique tempore corporis enim consequatur voluptatum dignissimos tenetur, beatae delectus, accusamus illum a dolor alias hic omnis pariatur ullam? Accusantium, expedita.
+        </p>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <a href="mailto:hello@cassy.drv" class="footer-link">hello@cassy.dev</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="facebook.com">
+                    <i class="fab fa-bitcoin"></i>
+                </a>
+    
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="github.com">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="codepen.io">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
